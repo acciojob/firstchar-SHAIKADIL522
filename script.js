@@ -1,4 +1,6 @@
 function firstChar(text) {
+  const trimmed = text.trim();
+  return trimmed.length === 0 ? '' : trimmed[0];
   // your code here
 }
 
